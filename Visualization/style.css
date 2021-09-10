@@ -1,0 +1,136 @@
+/* Body */
+body{
+    background-color: #d4e3eb;
+    color: rgb(3, 19, 107);
+}
+
+/* Navbar */
+.navbar{
+    max-height: 100px;
+    background-color: #fc0612;
+}
+   
+h4{
+    color: #0d0444;
+    font-weight: bold;
+    font-family: Georgia, 'Tahoma', Times, serif;
+    font-size: 14;
+}
+h3 {
+    color: #322053;
+    font-weight: bold;
+    font-family: Georgia, 'Tahoma', Times, serif;
+    padding-top: 25px;
+    font-size: 16;
+}
+
+h5 {
+    color: #076616;
+    font-weight: bold;
+    font-family: Georgia, 'Tahoma', Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14;
+}
+
+
+.navigation.navbar-brand{
+    color: rgb(19, 5, 202);
+    margin-left: 50px;
+    padding: 125px;
+    font-weight: bold;
+    background-color: rgb(228, 238, 236);
+    font-family: Georgia, 'Tahoma', Times, serif;
+    font-size: 25;
+}
+
+.navbar{
+    background-color: rgb(76, 196, 233);
+    font-size: 20px;
+    
+}
+a{
+    color: #11063f;
+    font-size: 20px;
+}
+
+/* Images */
+
+img{
+    width:100% ;
+    height:100%;
+}
+
+/* header for comparison page */
+.imageNav-header {
+    color: #be1919;
+    font-weight: bold;
+    font-size: 16;
+    text-align: right;
+}
+
+/* Paragraph*/
+p{
+color: black;
+font-family: calibri, Helvetica, sans-serif;
+font-size: 16px;
+}
+p.i {
+    font-style: italic;
+}
+
+/* Footer */
+footer{
+background-color: #a58a8a;
+border-top-style: solid;
+border-top-width: 5px;
+border-top-color: rgb(16, 156, 138);
+color: rgb(204, 186, 186);
+min-height: 55px;
+font-family: Arial, Tahoma, sans-serif;
+font-size: 12px;
+text-align: center;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+padding-top: 10px;
+}
+
+/* Media Queries */
+@media(max-width: 992px){
+.navbar-expand-lg{
+background-color: white;
+}
+/* Media query for body */
+@media only screen and (max-width: 767px) {
+    /* Set background color to white on small screens */
+    body {
+      /* Visual */
+      background-color: #fff;
+    }
+  }
+  
+.navbar{
+    max-height: none;
+    padding: inherit;
+}
+
+.navbar div{
+    margin: inherit;
+    background-color: white; 
+}
+
+.navbar-brand{
+    padding: 10px;
+}
+
+button{
+    margin-right: 20px;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+    }
+}
