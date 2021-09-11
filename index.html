@@ -44,37 +44,56 @@
 <!-- Contents-->              
 
     <div class="container">
+    
       <div class="row">
         <div class="col-md-12">
-          <h1>Weather Analysis Project</h1>
+          <h1></h1>
         </div>  
-                  
-        <div class="col-md-8">
-            <p>The purpose of this project was to analyse how weather changes as you get close to the equator. To
-            accomplish this we first pulled data from 500 randomly chosen city around the world, using an OpenWeatherMap
-            API.</p>
-              
-            <p>After composing the dataset, we used MatPlotLib to plot various aspects of the weather latitute. Factors we
-            looked at were temperature, cloudiness, wind speed and humidity. This website provides the source data and
-            visualisations created as part of the analysis, as well as explanations and trends or
-            correlations witnessed </p>
 
-          </div>    
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Project: City Weather Analysis</h1>
+          <hr>
+        </div>  
+
+        <div class="row">
+        <div class="col-md-4"> 
+          <h1>Visualizations</h1>
+          <hr>
+        </div> 
+      </div>
+        
+        <div class="col-md-8">
+            <p>The purpose of this project was to analyse how weather changes as one gets close to the equator.
+            In order to accomplish this project, Python script is created to visualize the weather of 500+ cities 
+            across the world of varying distance from the equator usign random latitude and longitude, utilizing 
+            Python and Pandas libraries and the Open Weather Map API.</p>
+              
+            <p>After composing the dataset, MatPlotLib is used to get the plots on various aspects of the weather by latitute. 
+            Maximum temperature in fahrenheiht, humidity in percentage, cloudiness in percentage and wind speed in miles per hour 
+            were the major varibles looked during the analysis. This site provides the source dataset and visualisations created 
+            as part of the analysis, as well as explanations and trends or correlations witnessed </p>
+
+            <p>The second part of the project was to see if there exists any correlation between the major variables with the latitude by using 
+            linear regression. For this, separate plots for Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern 
+            Hemisphere (less than 0 degrees latitude) were created.</p>
+
+            <p>In the southern hemisphere the temperature seems to be fairly correlated with the increase in latitude. The temperature was found
+            to be increasing as going towards the equator.</p>
+
+            <p>The data also showed a week correlation between latitude and humidity in the northern hemisphere. similarly the lattitude seems to be 
+            weakly correlated between the wind speed and the cloudiness in both the hemispheres. The data doesn't really fit a liner regression model.</p>
+        
+        </div>
 
           <!-- Sidebar -->
 
-          <div class="col-md-4 sidebar">
+          <div class="col-md-4" sidebar>
             <div class="row">
-            
-              <div class="col-md-12">
-                <h1>Visualizations</h1>
-              </div>
-            </div>
-            
+             
+            <p class = "i"> For details of each individual variables, please click the plots below</p> 
             <hr>
-              <p class = "i"> For details of each individual variables, please click the graphs below</p> 
-            <hr>
-
+            
           <div class="row">
             <div class="col-md-6">    
               <a href="temperature.html"> Max Temperature<img src="Resources/assets/images/Fig_1_temperature.png" class="img-thumbnail"></a>
