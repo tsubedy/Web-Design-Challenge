@@ -1,6 +1,6 @@
 /* Body */
 body{
-    background-color: #d4e3eb;
+    background-color: #c4d6d3;
     color: rgb(3, 19, 107);
 }
 
@@ -9,7 +9,9 @@ body{
     max-height: 100px;
     background-color: #fc0612;
 }
-   
+h1 {
+    padding-left: 15px;
+}   
 h4{
     color: #0d0444;
     font-weight: bold;
@@ -45,7 +47,7 @@ h5 {
 }
 
 .navbar{
-    background-color: rgb(76, 196, 233);
+    background-color: rgb(155, 217, 236);
     font-size: 20px;
     
 }
@@ -74,18 +76,23 @@ p{
 color: black;
 font-family: calibri, Helvetica, sans-serif;
 font-size: 16px;
+padding-left: 10px;
+padding-right: 25px;
+text-align: justify;
+text-justify: inter-word;
 }
 p.i {
     font-style: italic;
 }
+
 
 /* Footer */
 footer{
 background-color: #a58a8a;
 border-top-style: solid;
 border-top-width: 5px;
-border-top-color: rgb(16, 156, 138);
-color: rgb(204, 186, 186);
+border-top-color: rgb(49, 145, 132);
+color: rgb(246, 248, 247);
 min-height: 55px;
 font-family: Arial, Tahoma, sans-serif;
 font-size: 12px;
@@ -98,16 +105,16 @@ padding-top: 10px;
 }
 
 /* Media Queries */
-@media(max-width: 992px){
+@media(max-width: 1080px){
 .navbar-expand-lg{
-background-color: white;
+background-color: rgb(233, 221, 221);
 }
 /* Media query for body */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 760px) {
     /* Set background color to white on small screens */
     body {
       /* Visual */
-      background-color: #fff;
+      background-color: rgb(226, 215, 215);
     }
   }
   
@@ -118,11 +125,11 @@ background-color: white;
 
 .navbar div{
     margin: inherit;
-    background-color: white; 
+    background-color: rgb(219, 200, 200); 
 }
 
 .navbar-brand{
-    padding: 10px;
+    padding: 15px;
 }
 
 button{
