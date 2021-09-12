@@ -105,12 +105,12 @@ padding-top: 10px;
 }
 
 /* Media Queries */
-@media(max-width: 1080px){
+@media(max-width: 992px){
 .navbar-expand-lg{
 background-color: rgb(233, 221, 221);
 }
 /* Media query for body */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 767px) {
     /* Set background color to white on small screens */
     body {
       /* Visual */
