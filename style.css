@@ -6,11 +6,15 @@ body{
 
 /* Navbar */
 .navbar{
-    max-height: 100px;
+    max-height: 80px;
     background-color: #fc0612;
 }
 h1 {
     padding-left: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Tahoma', Times, serif;
+    font-size: 18;
+    text-align: left;
 }   
 h4{
     color: #0d0444;
@@ -48,12 +52,12 @@ h5 {
 
 .navbar{
     background-color: rgb(155, 217, 236);
-    font-size: 20px;
+    font-size: 18px;
     
 }
 a{
     color: #11063f;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* Images */
@@ -75,9 +79,9 @@ img{
 p{
 color: black;
 font-family: calibri, Helvetica, sans-serif;
-font-size: 16px;
-padding-left: 10px;
-padding-right: 25px;
+font-size: 12px;
+padding-left: 5px;
+padding-right: 30px;
 text-align: justify;
 text-justify: inter-word;
 }
@@ -91,9 +95,9 @@ footer{
 background-color: #a58a8a;
 border-top-style: solid;
 border-top-width: 5px;
-border-top-color: rgb(49, 145, 132);
+border-top-color: rgb(80, 156, 146);
 color: rgb(246, 248, 247);
-min-height: 55px;
+min-height: 30px;
 font-family: Arial, Tahoma, sans-serif;
 font-size: 12px;
 text-align: center;
@@ -111,7 +115,7 @@ background-color: rgb(233, 221, 221);
 }
 /* Media query for body */
 @media only screen and (max-width: 767px) {
-    /* Set background color to white on small screens */
+    /* background color change on small screens */
     body {
       /* Visual */
       background-color: rgb(226, 215, 215);

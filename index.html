@@ -2,6 +2,7 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latitude</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
@@ -44,27 +45,11 @@
 <!-- Contents-->              
 
     <div class="container">
-    
-      <div class="row">
-        <div class="col-md-12">
-          <h1></h1>
-        </div>  
-
       <div class="row">
         <div class="col-md-8">
           <h1>City Weather Analysis</h1>
           <hr>
-        </div>  
-
-        <div class="row">
-        <div class="col-md-4"> 
-          <h1>Visualizations</h1>
-          <hr>
-        </div> 
-      </div>
-        
-        <div class="col-md-8">
-            <p>The purpose of this project was to analyse how weather changes as one gets close to the equator.
+          <p>The purpose of this project was to analyse how weather changes as one gets close to the equator.
             In order to accomplish this project, Python script is created to visualize the weather of 500+ cities 
             across the world of varying distance from the equator usign random latitude and longitude, utilizing 
             Python and Pandas libraries and the Open Weather Map API.</p>
@@ -83,22 +68,22 @@
 
             <p>The data also showed a week correlation between latitude and humidity in the northern hemisphere. similarly the lattitude seems to be 
             weakly correlated between the wind speed and the cloudiness in both the hemispheres. The data doesn't really fit a liner regression model.</p>
-        
-        </div>
 
-          <!-- Sidebar -->
+        </div>  
+
+        <div class="col-md-4"> 
+          <h1> Visualizations</h1>
+          <hr>
+          <p class = "i"> For details of each individual variables, please click the plots below</p> 
+          <hr>
+          </div> 
 
           <div class="col-md-4" sidebar>
+
             <div class="row">
-             
-            <p class = "i"> For details of each individual variables, please click the plots below</p> 
-            <hr>
-            
-          <div class="row">
             <div class="col-md-6">    
               <a href="temperature.html"> Max Temperature<img src="resources/assets/images/temperature.png" height="450" width="400"></a>
             </div>
-          
             <div class="col-md-6">  
               <a href="humidity.html"> Humidity<img src="resources/assets/images/humidity.png" height="450" width="400"></a>
             </div>
